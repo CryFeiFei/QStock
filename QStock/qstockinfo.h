@@ -30,7 +30,9 @@ private:
 private:
 	QTimer* m_sinaTimer;
 	int m_sina;
-	QNetworkAccessManager* m_NetManager;
+	QNetworkAccessManager* m_netManager;
+
+	QStringList m_sinaCodeList;
 };
 
 #endif // QSTOCKINFO_H
